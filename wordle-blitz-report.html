@@ -1,0 +1,64 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Wordle Blitz Report</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#080e1a;color:#e8f0fe;
+ padding:max(14px,env(safe-area-inset-top)) 14px max(24px,env(safe-area-inset-bottom));max-width:520px;margin:0 auto}
+h1{font-size:1.5rem;text-align:center;background:linear-gradient(135deg,#00c6ff,#ffd700);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.who{text-align:center;color:#7a93b8;font-size:.85rem;margin:2px 0 14px}
+.sum{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
+.sum div{background:#0d1525;border:1px solid #1b2a44;border-radius:12px;padding:10px 4px;text-align:center}
+.sum b{display:block;font-size:1.5rem;color:#ffd700;line-height:1.1}
+.sum span{font-size:.65rem;color:#7a93b8;text-transform:uppercase;letter-spacing:.5px}
+.card{background:#0d1525;border:1px solid #1b2a44;border-left:4px solid #1e8a4a;border-radius:14px;padding:12px 14px;margin-bottom:12px}
+.card.bad{border-left-color:#e53935}
+.top{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.w{font-size:1.4rem;font-weight:800;letter-spacing:2px;margin-right:auto}
+.chip{font-size:.75rem;font-weight:700;padding:3px 9px;border-radius:99px;background:#111e30}
+.chip.t{color:#00c6ff}.chip.p{color:#ffd700}.chip.x{color:#ff6b6b}
+.meta{font-size:.75rem;color:#7a93b8;margin:2px 0 8px}
+.grid{display:flex;flex-direction:column;gap:3px;margin-bottom:10px}
+.g{display:flex;gap:3px}
+.g i{width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:6px;font:700 .85rem/1 system-ui;text-transform:uppercase;color:#fff;font-style:normal}
+.g .c{background:#1e8a4a}.g .p{background:#c8920a}.g .a{background:#2a2d35}
+.skip{font-size:.8rem;color:#7a93b8;font-style:italic}
+.mean{font-size:.9rem;color:#bcd3ef;border-top:1px solid #1b2a44;padding-top:8px}
+.mean p+p{margin-top:4px}.mean b{color:#00c6ff;font-style:italic;font-weight:600;margin-right:4px}
+.ex{color:#7a93b8;font-style:italic}.mean-missing a{color:#00c6ff}
+footer{text-align:center;color:#7a93b8;font-size:.7rem;margin-top:18px}
+</style></head><body>
+<h1>⚡ WORDLE BLITZ</h1>
+<div class="who">👤 Praveen · CSE-1 · 05/11/2026</div>
+<div class="sum">
+ <div><b>5</b><span>Score</span></div>
+ <div><b>2/3</b><span>Solved</span></div>
+ <div><b>1m 41s</b><span>Avg / word</span></div></div>
+<section class="card ok">
+      <div class="top"><span class="w">TRAIT</span>
+        <span class="chip t">⏱ 1m 41s</span>
+        <span class="chip p">+3 pts</span></div>
+      <div class="meta">#1 · 4 tries</div>
+      <div class="grid"><div class="g"><i class="a">g</i><i class="p">a</i><i class="a">m</i><i class="a">e</i><i class="a">s</i></div><div class="g"><i class="a">c</i><i class="a">h</i><i class="c">a</i><i class="c">i</i><i class="p">r</i></div><div class="g"><i class="c">t</i><i class="c">r</i><i class="c">a</i><i class="c">i</i><i class="a">n</i></div><div class="g"><i class="c">t</i><i class="c">r</i><i class="c">a</i><i class="c">i</i><i class="c">t</i></div></div>
+      <div class="mean"><p><b>noun</b> An identifying characteristic, habit or trend.</p><p class="ex">“inherited traits and acquired traits”</p></div></section><section class="card ok">
+      <div class="top"><span class="w">DOZEN</span>
+        <span class="chip t">⏱ 2m 16s</span>
+        <span class="chip p">+2 pts</span></div>
+      <div class="meta">#2 · 5 tries</div>
+      <div class="grid"><div class="g"><i class="a">t</i><i class="a">h</i><i class="p">e</i><i class="a">s</i><i class="a">e</i></div><div class="g"><i class="a">g</i><i class="a">a</i><i class="a">m</i><i class="c">e</i><i class="a">s</i></div><div class="g"><i class="a">l</i><i class="c">o</i><i class="a">v</i><i class="c">e</i><i class="a">s</i></div><div class="g"><i class="a">w</i><i class="p">e</i><i class="a">i</i><i class="a">r</i><i class="p">d</i></div><div class="g"><i class="c">d</i><i class="c">o</i><i class="c">z</i><i class="c">e</i><i class="c">n</i></div></div>
+      <div class="mean"><p><b>noun</b> A set of twelve.</p><p><b>noun</b> A member of a K-pop group who has no talent.</p><p class="ex">“Can I have a dozen eggs, please?”</p></div></section><section class="card bad">
+      <div class="top"><span class="w">SPAWN</span>
+        <span class="chip t">⏱ 1m 06s</span>
+        <span class="chip x">missed</span></div>
+      <div class="meta">#3 · not solved</div>
+      <div class="grid"><div class="g"><i class="a">g</i><i class="p">a</i><i class="a">m</i><i class="a">e</i><i class="p">s</i></div><div class="g"><i class="a">b</i><i class="a">l</i><i class="c">a</i><i class="a">c</i><i class="a">k</i></div><div class="g"><i class="p">p</i><i class="a">h</i><i class="a">o</i><i class="a">t</i><i class="a">o</i></div></div>
+      <div class="mean"><p><b>verb</b> To produce or deposit (eggs) in water.</p><p><b>noun</b> The numerous eggs of an aquatic organism.</p><p class="ex">“A frog spawns thousands of tadpoles every year.”</p></div></section>
+<footer>Meanings via dictionaryapi.dev · Wiktionary · Datamuse</footer>
+<script>
+document.querySelectorAll('.mean-missing').forEach(function(el){
+  fetch('https://en.wiktionary.org/api/rest_v1/page/definition/'+el.dataset.w).then(function(r){return r.json()}).then(function(d){
+    var m=d.en[0],t=document.createElement('div');t.innerHTML=m.definitions[0].definition;
+    el.innerHTML='<b>'+m.partOfSpeech.toLowerCase()+'</b> '+t.textContent;
+  }).catch(function(){});
+});
+</script></body></html>
